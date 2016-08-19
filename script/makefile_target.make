@@ -22,4 +22,6 @@
 	-@bash $(SCRIPT_DIR)/run_params.sh $(PARAMETER_DIR)/7_DETFIV_WL_ground_opt.camb.ini $(PARAMETER_ANALYSIS_DIR)/7_DETFIV_WL_ground_opt.camb.ini
 8_DES09_GC_Planck.camb:
 	-@bash $(SCRIPT_DIR)/run_params.sh $(PARAMETER_DIR)/8_DES09_GC_Planck.camb.ini $(PARAMETER_ANALYSIS_DIR)/8_DES09_GC_Planck.camb.ini
-all_targets: 1_Planck_Pre_Launch.camb 2_CMBpol.camb 3_Planck_2015.camb 3_Planck_2015_TTonly.camb 4_Planck_RD.camb 5_SN_HST.camb 5_SN_lowz.camb 5_SN_SDSS.camb 5_SN_SNLS.camb 6_DETFIV_WL_ground_pess.camb 7_DETFIV_WL_ground_opt.camb 8_DES09_GC_Planck.camb 
+9_Planck2015_MG_DEpar.mgcamb:
+	-@bash $(SCRIPT_DIR)/run_params.sh $(PARAMETER_DIR)/9_Planck2015_MG_DEpar.mgcamb.ini $(PARAMETER_ANALYSIS_DIR)/9_Planck2015_MG_DEpar.mgcamb.ini
+all_targets: 1_Planck_Pre_Launch.camb 2_CMBpol.camb 3_Planck_2015.camb 3_Planck_2015_TTonly.camb 4_Planck_RD.camb 5_SN_HST.camb 5_SN_lowz.camb 5_SN_SDSS.camb 5_SN_SNLS.camb 6_DETFIV_WL_ground_pess.camb 7_DETFIV_WL_ground_opt.camb 8_DES09_GC_Planck.camb 9_Planck2015_MG_DEpar.mgcamb 
